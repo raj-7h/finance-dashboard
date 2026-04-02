@@ -144,7 +144,8 @@ src/
 
 🙌 Conclusion
 
-This project demonstrates a practical approach to building a financial dashboard with focus on usability, clean design, and maintainable code structure.
+This project demonstrates a practical approach to building a financial dashboard with focus on usability,
+clean design, and maintainable code structure.
 
 ⸻
 
