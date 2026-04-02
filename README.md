@@ -1,82 +1,82 @@
-:::writing{variant=“standard” id=“read01”}
-
-💰 Finance Dashboard UI
+# 💰 Finance Dashboard UI
 
 A clean and interactive finance dashboard built to visualize financial data, manage transactions, and understand spending patterns.
 
-⸻
+---
 
-🚀 Overview
+## 🚀 Overview
 
 This project is a frontend-based finance dashboard designed to demonstrate:
-	•	UI/UX design skills
-	•	Component structuring
-	•	State management
-	•	Data visualization
+
+- UI/UX design skills  
+- Component structuring  
+- State management  
+- Data visualization  
 
 It simulates a real-world financial tracking interface without backend dependency.
 
-⸻
+---
 
-✨ Features
+## ✨ Features
 
-📊 Dashboard
-	•	Total Balance, Income, and Expenses summary cards
-	•	Time-based visualization (Line Chart for financial trends)
-	•	Category-based visualization (Pie Chart for spending breakdown)
+### 📊 Dashboard
+- Total Balance, Income, and Expenses summary cards  
+- Time-based visualization (Line Chart)  
+- Category-based visualization (Pie Chart)  
 
-⸻
+---
 
-📄 Transactions
-	•	View all transactions (Date, Amount, Category, Type)
-	•	Search by category
-	•	Filter by income/expense
-	•	Edit and delete transactions (Admin only)
+### 📄 Transactions
+- View all transactions (Date, Amount, Category, Type)  
+- Search by category  
+- Filter by income/expense  
+- Edit and delete transactions (Admin only)  
 
-⸻
+---
 
-🔐 Role-Based UI (RBAC Simulation)
-	•	Viewer
-	•	Can only view data
-	•	Admin
-	•	Can edit and delete transactions
+### 🔐 Role-Based UI (RBAC Simulation)
+- **Viewer** → Can only view data  
+- **Admin** → Can edit and delete transactions  
 
-Role can be switched using a dropdown for demonstration.
+Role switching available via dropdown.
 
-⸻
+---
 
-📈 Insights
-	•	Top spending categories
-	•	Basic financial observations
-	•	Spending breakdown analysis
+### 📈 Insights
+- Top spending categories  
+- Basic financial observations  
+- Spending breakdown analysis  
 
-⸻
+---
 
-⚙️ State Management
-	•	Managed using React Context API
-	•	Global state sync across:
-	•	Dashboard
-	•	Transactions
-	•	Insights
+### ⚙️ State Management
+- Managed using **React Context API**  
+- Global sync across:
+  - Dashboard  
+  - Transactions  
+  - Insights  
 
-⸻
+---
 
-🛠️ Tech Stack
-	•	Frontend: React.js
-	•	Styling: Tailwind CSS
-	•	Charts: Recharts
-	•	State Management: Context API
-  
-⸻
+## 🛠️ Tech Stack
 
-📁 Project Structure
+- React.js  
+- Tailwind CSS  
+- Recharts  
+- Context API  
+
+---
+
+## 📁 Project Structure
+
+```plaintext
 src/
-├── assets/            # Images, icons
+├── assets/
 │   └── icons/
 │       ├── delete.png
 │       └── edit.png
 │
-├── components/        # Reusable UI components
+├── components/
 │   ├── charts/
 │   │   ├── LineChart.jsx
 │   │   └── PieChart.jsx
@@ -91,23 +91,23 @@ src/
 │       ├── Card.jsx
 │       └── Table.jsx
 │
-├── context/           # Global state management
+├── context/
 │   ├── context.js
 │   └── AppContext.jsx
 │
-├── hooks/             # Custom hooks
+├── hooks/
 │   └── useAppContext.js
 │
-├── data/              # Mock/static data
+├── data/
 │   └── transactions.js
 │
-├── pages/             # Application pages (routes)
+├── pages/
 │   ├── Dashboard.jsx
 │   ├── Transactions.jsx
 │   └── Insights.jsx
 │
-├── App.jsx            # Root component
-└── main.jsx           # Entry point
+├── App.jsx
+└── main.jsx
   
 ⸻
 🧪 How to Run
