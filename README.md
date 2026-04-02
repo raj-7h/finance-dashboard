@@ -109,46 +109,43 @@ src/
 ├── App.jsx
 └── main.jsx
   
-⸻
-🧪 How to Run
+---
+## 🧪 How to Run
   1.	Clone the repository: git clone https://github.com/raj-7h/finance-dashboard.git
   2.	Navigate to the project folder: cd screening_assignment
   3.	Install dependencies: npm install
   4.	Start the development server: npm run dev
 
-⸻
-📌 Key Highlights
+---
+## 📌 Key Highlights
 	•	Clean and modular component structure
 	•	Role-based UI simulation
 	•	Dynamic charts with live data updates
 	•	Responsive and user-friendly interface
 	•	Proper state management using Context API
 
-⸻
 
-🚧 Assumptions
+---
+## 🚧 Assumptions
 	•	Data is static/mock-based
 	•	No backend or authentication is implemented
 	•	Role switching is simulated on frontend
 
-⸻
-
-🌟 Future Improvements
+---
+## 🌟 Future Improvements
 	•	Local storage persistence
 	•	Dark mode
 	•	Advanced filtering
 	•	Export transactions (CSV/JSON)
 	•	API integration
 
-⸻
-
-🙌 Conclusion
+---
+## 🙌 Conclusion
 
 This project demonstrates a practical approach to building a financial dashboard with focus on usability,
 clean design, and maintainable code structure.
 
-⸻
-
+---
 ⭐ If you like this project, feel free to give it a star!
 
 
