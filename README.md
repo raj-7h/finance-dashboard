@@ -111,7 +111,7 @@ src/
   
 ⸻
 🧪 How to Run
-	1.	Clone the repository: git clone https://github.com/raj-7h/finance-dashboard.git
+  1.	Clone the repository: git clone https://github.com/raj-7h/finance-dashboard.git
   2.	Navigate to the project folder: cd screening_assignment
   3.	Install dependencies: npm install
   4.	Start the development server: npm run dev
@@ -149,6 +149,6 @@ This project demonstrates a practical approach to building a financial dashboard
 ⸻
 
 ⭐ If you like this project, feel free to give it a star!
-:::
+
 
   
